@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+    background-color: azure;
+}
+ul * {
+
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: larger;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    margin-top: 50px;
+}

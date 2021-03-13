@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>find the hidden</title>
+</head>
+<body>
+
+<p>Click the button to start the game </p>
+<p>try to find the magical number, Good Luck :) </p>
+
+<button onclick="myFunction()"> play </button>
+
+<p id="demo"></p>
+
+<script>
+   
+function myFunction() {
+    var n = prompt("Please choose your number of tentatives",3);
+    i=0;
+    x= Math.floor(Math.random() * 11);
+    while (i<n) {
+    //alert(x);
+    var test = prompt("Please enter your number");
+    if ( (test != x)&&(i==n-1) ){  alert("you loooooooooose");}
+    else if (test != x)
+    { alert("wrooooooooong!!!");}
+    else {
+        alert("you win ");
+        i=n;
+    } 
+    i++;}
+}
+</script>
+
+</body>
+</html>
